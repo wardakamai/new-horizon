@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body text-gray-800 bg-white antialiased;
+  }
+
+  /* Ensure smooth anchor scrolling accounts for sticky navbar height */
+  :target {
+    scroll-margin-top: 5rem;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

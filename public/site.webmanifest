@@ -1,0 +1,19 @@
+{
+  "name": "New Horizon Oil and Gas",
+  "short_name": "New Horizon",
+  "description": "Official mandate to oil and gas suppliers, facilitating the supply of oil products to serious buyers globally.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f4",
+  "theme_color": "#187767",
+  "icons": [
+    {
+      "src": "/site-logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "utilities"],
+  "lang": "en"
+}
