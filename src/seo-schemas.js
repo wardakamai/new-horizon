@@ -105,15 +105,8 @@ export const D6_PRODUCT_SCHEMA = {
   name:    'D6 Virgin Residual Fuel Oil',
   description:
     'D6 virgin residual fuel oil (60–80 cSt @ 50°C) for power generation, industrial boilers, and marine use. Available FOB Rotterdam, Houston, Jurong, Fujairah or CIF any safe world port. Minimum cargo 5,000 MT.',
-  brand: { '@type': 'Brand', name: SITE_NAME },
-  offers: {
-    '@type':        'Offer',
-    seller:         { '@id': `${BASE_URL}/#organization` },
-    priceCurrency:  'USD',
-    availability:   'https://schema.org/InStock',
-    areaServed:     'Worldwide',
-    description:    'FOB Rotterdam, Houston, Jurong, Fujairah. CIF any safe world port. Min. 5,000 MT.',
-  },
+  brand:  { '@type': 'Brand', name: SITE_NAME },
+  seller: { '@id': `${BASE_URL}/#organization` },
 }
 
 // ── EN590 Diesel product schema ───────────────────────────────────────────────
@@ -123,15 +116,8 @@ export const EN590_PRODUCT_SCHEMA = {
   name:    'EN590 Ultra-Low Sulphur Diesel',
   description:
     'EN590 10ppm ultra-low sulphur diesel (ULSD) conforming to EN 590:2013+A1:2017. Available FOB Rotterdam, Houston, Jurong, Fujairah or CIF any safe world port. Minimum cargo 5,000 MT.',
-  brand: { '@type': 'Brand', name: SITE_NAME },
-  offers: {
-    '@type':        'Offer',
-    seller:         { '@id': `${BASE_URL}/#organization` },
-    priceCurrency:  'USD',
-    availability:   'https://schema.org/InStock',
-    areaServed:     'Worldwide',
-    description:    'FOB Rotterdam, Houston, Jurong, Fujairah. CIF any safe world port. Min. 5,000 MT.',
-  },
+  brand:  { '@type': 'Brand', name: SITE_NAME },
+  seller: { '@id': `${BASE_URL}/#organization` },
 }
 
 // ── Jet A1 product schema ─────────────────────────────────────────────────────
@@ -141,15 +127,8 @@ export const JET_A1_PRODUCT_SCHEMA = {
   name:    'Jet A-1 Aviation Turbine Fuel',
   description:
     'Aviation-grade Jet A-1 meeting DEF STAN 91-091 Issue 7 and ASTM D1655. Available FOB Rotterdam, Houston, Jurong, Fujairah or CIF any safe world port. Minimum cargo 3,000 MT.',
-  brand: { '@type': 'Brand', name: SITE_NAME },
-  offers: {
-    '@type':        'Offer',
-    seller:         { '@id': `${BASE_URL}/#organization` },
-    priceCurrency:  'USD',
-    availability:   'https://schema.org/InStock',
-    areaServed:     'Worldwide',
-    description:    'FOB Rotterdam, Houston, Jurong, Fujairah. CIF any safe world port. Min. 3,000 MT.',
-  },
+  brand:  { '@type': 'Brand', name: SITE_NAME },
+  seller: { '@id': `${BASE_URL}/#organization` },
 }
 
 // ── Crude Oil product schema ──────────────────────────────────────────────────
@@ -159,15 +138,8 @@ export const CRUDE_OIL_PRODUCT_SCHEMA = {
   name:    'Crude Oil — Urals & Qatar Origin',
   description:
     'Crude oil from Urals (Russia) and Qatar origins. SGS-inspected at loading. Available FOB Rotterdam, Houston, Jurong, Fujairah or CIF any safe world port. Minimum cargo 25,000 MT.',
-  brand: { '@type': 'Brand', name: SITE_NAME },
-  offers: {
-    '@type':        'Offer',
-    seller:         { '@id': `${BASE_URL}/#organization` },
-    priceCurrency:  'USD',
-    availability:   'https://schema.org/InStock',
-    areaServed:     'Worldwide',
-    description:    'FOB Rotterdam, Houston, Jurong, Fujairah. CIF any safe world port. Min. 25,000 MT.',
-  },
+  brand:  { '@type': 'Brand', name: SITE_NAME },
+  seller: { '@id': `${BASE_URL}/#organization` },
 }
 
 // ── Services page: ItemList of services ──────────────────────────────────────
