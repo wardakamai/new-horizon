@@ -120,6 +120,14 @@ export default function CompliancePage() {
       {/* Compliance pillars */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="font-display text-4xl font-bold text-brand-tealDeep">
+              Our Compliance Framework
+            </h2>
+            <p className="mt-3 font-body text-gray-600 text-sm max-w-xl mx-auto">
+              Six pillars of compliance governance applied to every petroleum transaction we facilitate.
+            </p>
+          </div>
           <motion.div
             variants={staggerContainer}
             initial="hidden"
@@ -137,7 +145,7 @@ export default function CompliancePage() {
                   <div className="w-11 h-11 rounded-xl bg-brand-teal flex items-center justify-center flex-shrink-0">
                     <Icon className="text-white" size={20} strokeWidth={1.5} />
                   </div>
-                  <h2 className="font-display text-xl font-bold text-brand-tealDeep">{title}</h2>
+                  <h3 className="font-display text-xl font-bold text-brand-tealDeep">{title}</h3>
                 </div>
                 <p className="font-body text-gray-600 text-sm leading-relaxed mb-5">{description}</p>
                 <div>

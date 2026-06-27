@@ -47,7 +47,7 @@ export default function Process() {
             How It Works
           </span>
           <h2 className="mt-3 font-display text-4xl lg:text-5xl font-bold text-brand-tealDeep">
-            Our Supply Process
+            Our Oil &amp; Gas Supply Process
           </h2>
           <p className="mt-4 font-body text-gray-600 max-w-lg mx-auto text-sm sm:text-base leading-relaxed">
             A transparent, step-by-step journey from your first inquiry to successful delivery.

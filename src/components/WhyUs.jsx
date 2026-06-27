@@ -59,7 +59,7 @@ export default function WhyUs() {
             Why Choose Us
           </span>
           <h2 className="mt-3 font-display text-4xl lg:text-5xl font-bold text-brand-tealDeep">
-            The New Horizon Advantage
+            Why Choose New Horizon Oil &amp; Gas
           </h2>
           <p className="mt-4 font-body text-gray-600 max-w-xl mx-auto text-sm sm:text-base leading-relaxed">
             We combine mandate authority, global reach, and process discipline to deliver a trading

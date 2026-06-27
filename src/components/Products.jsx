@@ -65,7 +65,7 @@ export default function Products() {
             Our Portfolio
           </span>
           <h2 className="mt-3 font-display text-4xl lg:text-5xl font-bold text-brand-tealDeep">
-            Products We Supply
+            Petroleum Products We Supply Globally
           </h2>
           <p className="mt-4 font-body text-gray-600 max-w-xl mx-auto text-sm sm:text-base leading-relaxed">
             We facilitate the supply of a comprehensive range of petroleum products to verified buyers

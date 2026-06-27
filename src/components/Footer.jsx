@@ -41,9 +41,9 @@ export default function Footer() {
 
           {/* Quick links — now using React Router Link */}
           <div>
-            <h2 className="font-body font-semibold text-brand-gold text-xs uppercase tracking-widest mb-5">
+            <h3 className="font-body font-semibold text-brand-gold text-xs uppercase tracking-widest mb-5">
               Quick Links
-            </h2>
+            </h3>
             <ul className="space-y-3" role="list">
               {QUICK_LINKS.map(({ label, to }) => (
                 <li key={to}>
@@ -60,9 +60,9 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h2 className="font-body font-semibold text-brand-gold text-xs uppercase tracking-widest mb-5">
+            <h3 className="font-body font-semibold text-brand-gold text-xs uppercase tracking-widest mb-5">
               Contact
-            </h2>
+            </h3>
             <address className="not-italic space-y-3 font-body text-sm" style={{ color: '#C9A24A' }}>
               <p className="leading-relaxed">
                 Dinmukhamed Qonayev St 2,<br />

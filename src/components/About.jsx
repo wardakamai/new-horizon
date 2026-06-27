@@ -35,7 +35,7 @@ export default function About() {
               variants={staggerItem}
               className="font-display text-4xl lg:text-5xl font-bold text-brand-tealDeep leading-tight mb-6"
             >
-              Your Trusted Bridge to Global Energy Markets
+              Your Trusted Oil &amp; Gas Mandate Partner
             </motion.h2>
 
             <motion.p variants={staggerItem} className="font-body text-gray-600 leading-relaxed mb-4">
